@@ -11,7 +11,7 @@ public class CalculadoraTest {
         Calculadora calculadora = new Calculadora();
         int soma = calculadora.somar(3, 7);
         Assertions.assertEquals(10, soma);
-        // Ao passar valor não esperado, o não passa no teste
+        // Passando um valor não esperado para que o teste não seja aprovad:
         // Assertions.assertEquals(12, soma);
     }
 
