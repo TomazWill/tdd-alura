@@ -17,6 +17,14 @@ public class ReajusteServiceTest {
     private ReajusteService service;
     private Funcionario funcionario;
 
+//    @BeforeAll // Executa uma ação uma única vez antes dos testes.
+//    public static void antesDeTodos() {
+//        System.out.printIn("ANTES DE TODOS");
+//    }
+//    @AfterAll // Executa uma ação uma única vez depois dos testes.
+//    public static void depoisDeTodos() {
+//        System.out.printIn("DEPOIS DE TODOS");
+//    }
 
     // @AfterEach  => JUnit depois de cada um dos métodos execute o método: 'metodoFinalExemplo()'...
     // @BeforeEach => JUnit antes de cada um dos métodos execute esse método abaixo:
